@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Navigate to Branch Page and Verify all the elements present on Branch Page",
+        "description": "",
+        "id": "navigate-to-branch-page-and-verify-all-the-elements-on-branch-page;navigate-to-branch-page-and-verify-all-the-elements-present-on-branch-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10460074260,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is logged in to the application with username \"admin\" and password \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 52
+                },
+                {
+                  "val": "admin",
+                  "offset": 73
+                }
+              ],
+              "location": "NavigateVerifyBranchPgStepDef.user_is_logged_in_to_the_application_with_username_and_password(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1309671841,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Branch Link",
+            "match": {
+              "location": "NavigateVerifyBranchPgStepDef.user_clicks_on_Branch_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3118717598,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is able to navigate to Branch Page and verify all the elements are present on Branch Page",
+            "match": {
+              "location": "NavigateVerifyBranchPgStepDef.user_is_able_to_navigate_to_Branch_Page_and_verify_all_the_elements_are_present_on_Branch_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Navigate to Branch Page and verify all the elements on Branch Page",
+    "description": "  Verify if user is able to navigate to Branch Page and Verify all the elements present on Branch Page",
+    "id": "navigate-to-branch-page-and-verify-all-the-elements-on-branch-page",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Navigate_Verify_BranchPg.feature"
+  }
+]

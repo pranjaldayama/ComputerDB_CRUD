@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^user is able to navigate to Branch Page and verify all the elements are present on Branch Page$",
+    "steps": [
+      {
+        "name": "user is able to navigate to Branch Page and verify all the elements are present on Branch Page",
+        "aggregatedDurations": {
+          "average": 3.118717598,
+          "median": 3.118717598
+        },
+        "durations": [
+          {
+            "duration": 3.118717598,
+            "location": "src/test/java/features/Navigate_Verify_BranchPg.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is logged in to the application with username \"([^\"]*)\" and password \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user is logged in to the application with username \"admin\" and password \"admin\"",
+        "aggregatedDurations": {
+          "average": 10.46007426,
+          "median": 10.46007426
+        },
+        "durations": [
+          {
+            "duration": 10.46007426,
+            "location": "src/test/java/features/Navigate_Verify_BranchPg.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on Branch Link$",
+    "steps": [
+      {
+        "name": "user clicks on Branch Link",
+        "aggregatedDurations": {
+          "average": 1.309671841,
+          "median": 1.309671841
+        },
+        "durations": [
+          {
+            "duration": 1.309671841,
+            "location": "src/test/java/features/Navigate_Verify_BranchPg.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]
