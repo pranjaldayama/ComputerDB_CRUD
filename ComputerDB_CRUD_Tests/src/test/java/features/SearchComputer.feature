@@ -1,9 +1,12 @@
-Feature: Navigate to Branch Page and verify all the elements on Branch Page
-    Verify if user is able to navigate to Branch Page and Verify all the elements present on Branch Page
+Feature: Search a computer added in the database
+    Verify is user is able to search a computer added to the Computer DB
 
-  Scenario: Navigate to Branch Page and Verify all the elements present on Branch Page
-    Given user is logged in to the application with username "admin" and password "admin"
-    When user clicks on Branch Link
-    Then user is able to navigate to Branch Page and verify all the elements are present on Branch Page
-    
-  
+    Scenario Outline: Adding a new Computer to the Computer DB
+    Given user is on Computer DB application
+    When user clicks on the button 'Add a new computer'
+    And user enters "<ComputerName>","<IntroducedDate>","<DiscontinuedDate>" and "<Company>" then clicks on button 'Create this Computer'
+    And user enters "<ComputerName>" in the 'Filter By Computer Name' text box and clicks on button 'Filter By Name'
+    Then should be able to view the "<ComputerName>" listed below
+ 		Examples:
+ 		|ComputerName|IntroducedDate|DiscontinuedDate|Company|
+ 		|DELL PER3   |2008-09-09    |2015-07-06      |OMRON  |

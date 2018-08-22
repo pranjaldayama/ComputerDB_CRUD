@@ -1,15 +1,15 @@
-Feature: Create a new Branch in the system
-    Verify is user is able to create a new branch in the system
+Feature: Add a new Computer in the Computer DB
+    Verify is user is able to add a new computer in the Computer DB
 
-    Scenario: Navigate to Branch Page verify if able to create a new branch
-    Given Login using credentials "admin" and "admin"
-    When User navigates to Branch Page and clicks on button Create New Branch
-    And a new popup is displayed where user enters branchDetails
- 		|Name     | Code|
-  	|PHYSICS  | B1  | 
-    Then view the branch record added to the Branches page
-    |Name     | Code|
-  	|PHYSICS  | B1  |
+    Scenario Outline: Adding a new Computer to the Computer DB
+    Given user is on Computer DB application
+    When user clicks on the button 'Add a new computer'
+    And user enters "<ComputerName>","<IntroducedDate>","<DiscontinuedDate>" and "<Company>" then clicks on button 'Create this Computer'
+    Then verify that the new computer is added with name "<ComputerName>"
+ 		Examples:
+ 		|ComputerName|IntroducedDate|DiscontinuedDate|Company|
+ 		|DELL ESP    |2008-09-09    |2015-07-06      |OMRON  |
+ 		
    
    
     

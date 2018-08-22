@@ -1,23 +1,30 @@
 package stepDefinitions;
 
 import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 
+import dataProvider.ConfigFileReader;
+
 public class CommonFunctions {
 	   
-	/*public CommonFunctions(WebDriver driver) {
+	static WebDriver driver;
+	ConfigFileReader configFileReader;
+	   
+	public CommonFunctions(WebDriver driver) {
+		this.driver=driver;
 		PageFactory.initElements(driver, this);
+		configFileReader= new ConfigFileReader();
 	}
 	
-	 	public static WebDriver  driver;
-	    //Function to open Gurukula website
+	    //Function to open Computer DB application
 		public void openBrowser(){
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\Pranjal\\Desktop\\chrome_driver\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",configFileReader.getDriverPath());
 	        driver = new ChromeDriver();
-	        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	        driver.get("http://192.168.178.17:8080");
+	        driver.manage().timeouts().implicitlyWait(configFileReader.getImplicitlyWait(), TimeUnit.SECONDS);
+	        driver.get(configFileReader.getApplicationUrl());
 		}
 		
 		 //Function to close browser
@@ -25,6 +32,6 @@ public class CommonFunctions {
 			driver.close();
 			driver.quit();
 		   
-		}*/
+		}
 
 }
