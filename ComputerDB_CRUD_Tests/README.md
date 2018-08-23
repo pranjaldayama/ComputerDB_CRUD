@@ -1,6 +1,25 @@
 
 # ComputerDB CRUD Tests
-Other Files:
+
+Prerequisites:
+-------------
+1. Eclipse (Used Version: Kepler Service Release 1)
+
+2. Chrome Driver : (Used Version :Version 68.0.3440.106)
+Download link - https://chromedriver.storage.googleapis.com/index.html?path=2.27/
+
+3. Add Maven, Cucumber plugin to eclipse
+
+Steps:
+
+       a. Click on "Help" > "Install New software"
+       b. Add the link 'http://cucumber.github.com/cucumber-eclipse/update-site' in Work with text box.
+       Link for Maven : http://download.eclipse.org/technology/m2e/releases
+       c. Cucumber feature will be shown, expand the tree node then verify the version.
+       d. Tick the checkbox of Cucumber
+       e. Click on Next button then Finish button. 
+       
+Manual Test Cases:
 ------
 Folder 'resources' contains Functional, GUI, Security, Device Compatibilty and Performance tests
 
@@ -8,7 +27,7 @@ Purpose:
 -------
 Automated and Manual tests for http://computer-database.herokuapp.com/computers
 
-Description:
+Description of the automation framework:
 ------------
 Test cases are automated using Selenium + Java, Cucumber, BDD, Junit, Maven
 Created Maven Project and added dependencies for selenium and Junit
@@ -34,27 +53,10 @@ data like application url, browser exe, data-base configurations etc.
 running code.
 10. resources : Test cases present of the application : Functional , GUI, Security and Performance tests
 
-Prerequisites:
--------------
-1. Eclipse (Used Version: Kepler Service Release 1)
 
-2. Chrome Driver : (Used Version :Version 68.0.3440.106)
-Download link - https://chromedriver.storage.googleapis.com/index.html?path=2.27/
-
-3. Add Maven, Cucumber plugin to eclipse
-
-Steps:
-
-       a. Click on "Help" > "Install New software"
-       b. Add the link 'http://cucumber.github.com/cucumber-eclipse/update-site' in Work with text box.
-       Link for Maven : http://download.eclipse.org/technology/m2e/releases
-       c. Cucumber feature will be shown, expand the tree node then verify the version.
-       d. Tick the checkbox of Cucumber
-       e. Click on Next button then Finish button. 
-
-Executing:
+How to execute the test scripts ?
 ----------
-Run the Tests:
+Run the Features : 
 
 To run the features/test scripts, in runner package, go to testRunner.java, right click , runAs JUnit.
 It will execute all the features of the application.
