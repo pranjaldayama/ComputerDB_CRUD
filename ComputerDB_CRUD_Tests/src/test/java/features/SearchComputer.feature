@@ -1,7 +1,7 @@
 Feature: Search a computer added in the database
     Verify is user is able to search a computer added to the Computer DB
-
-    Scenario Outline: Adding a new Computer to the Computer DB
+    
+    Scenario Outline: User should be able to Search the Computer added into the Computer DB
     Given user is on Computer DB application
     When user clicks on the button 'Add a new computer'
     And user enters "<ComputerName>","<IntroducedDate>","<DiscontinuedDate>" and "<Company>" then clicks on button 'Create this Computer'

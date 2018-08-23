@@ -1,4 +1,4 @@
-Feature: Add a new Computer in the Computer DB
+Feature: User should be able to add a new Computer into the Computer DB
     Verify is user is able to add a new computer in the Computer DB
 
     Scenario Outline: Adding a new Computer to the Computer DB
@@ -9,9 +9,3 @@ Feature: Add a new Computer in the Computer DB
  		Examples:
  		|ComputerName|IntroducedDate|DiscontinuedDate|Company|
  		|DELL ESP    |2008-09-09    |2015-07-06      |OMRON  |
- 		
-   
-   
-    
-    
-    
