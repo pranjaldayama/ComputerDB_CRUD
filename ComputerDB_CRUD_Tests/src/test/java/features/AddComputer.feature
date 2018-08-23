@@ -9,3 +9,4 @@ Feature: User should be able to add a new Computer into the Computer DB
  		Examples:
  		|ComputerName|IntroducedDate|DiscontinuedDate|Company|
  		|DELL ESP    |2008-09-09    |2015-07-06      |OMRON  |
+ 		|ACE         |2008-09-09    |2015-07-06      |IBM    |

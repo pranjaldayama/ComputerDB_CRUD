@@ -13,3 +13,4 @@ Feature: User should be able to Delete the Computer added
  		Examples:
  		|ComputerName|IntroducedDate|DiscontinuedDate|Company|
  		|DELL PER8   |2008-09-09    |2015-07-06      |OMRON  |
+ 		|ACE TEST    |2008-09-09    |2015-07-06      |IBM    |

@@ -10,3 +10,4 @@ Feature: Search a computer added in the database
  		Examples:
  		|ComputerName|IntroducedDate|DiscontinuedDate|Company|
  		|DELL PER3   |2008-09-09    |2015-07-06      |OMRON  |
+ 		|ACE  PER3   |2008-09-09    |2015-07-06      |IBM    |
