@@ -6,7 +6,7 @@ Prerequisites:
 1. Eclipse (Used Version: Kepler Service Release 1)
 
 2. Chrome Driver : (Used Version :Version 68.0.3440.106)
-Download link - https://chromedriver.storage.googleapis.com/index.html?path=2.27/
+Download link - https://chromedriver.storage.googleapis.com/index.html?path=2.41/
 
 3. Add Maven, Cucumber plugin to eclipse
 
