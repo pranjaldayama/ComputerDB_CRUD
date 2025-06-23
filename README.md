@@ -67,3 +67,78 @@ If we want to run specific features in certain order then , you can specify the 
 features ={"src/test/java/features/AddComputer.feature","src/test/java/features/DeleteComputer.feature"}
 
 
+This project automates the full CRUD (Create, Read, Update, Delete) flow of the [Computer Database app]((http://computer-database.herokuapp.com/computers)) using **Selenium WebDriver**, **Java**, and **TestNG**.
+
+---
+
+## 🚀 Tech Stack
+
+- 🧪 **Test Framework:** TestNG
+- 🧭 **Automation Tool:** Selenium WebDriver
+- 🧱 **Build Tool:** Maven
+- 🌐 **Test Target:** http://computer-database.herokuapp.com/computers
+
+---
+
+## 📁 Project Structure
+
+```
+
+├── src/
+│   ├── main/java/           ← Page Objects & Utility classes
+│   └── test/java/           ← Test cases for CRUD operations
+├── pom.xml                  ← Maven build config
+└── README.md                ← You're looking at it 😊
+
+````
+
+
+## ✅ Functional Coverage
+
+- ✅ **Add Computer**
+- ✅ **Search Computer**
+- ✅ **Update Computer Details**
+- ✅ **Delete Computer**
+- ✅ **Negative Tests & Validations**
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/pranjaldayama/ComputerDB_CRUD.git
+cd ComputerDB_CRUD
+````
+
+### 2. Run Tests via Maven
+
+```bash
+mvn clean test
+```
+
+> Make sure your system has Java 11+ and Maven installed.
+
+---
+
+## 📸 Sample Test Report
+
+Reports (e.g., TestNG HTML reports) will be generated in:
+
+```
+/test-output/index.html
+```
+
+Open it in your browser to view the results.
+
+---
+
+## 🧠 Author
+
+* **Pranjal Dayama**
+  💼 [LinkedIn](https://linkedin.com/in/pranjaldayama)
+  🔗 [GitHub Profile](https://github.com/pranjaldayama)
+
+
+
+
