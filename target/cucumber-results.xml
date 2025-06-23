@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.888464">
+<testcase classname="Navigate to Branch Page and verify all the elements on Branch Page" name="Navigate to Branch Page and Verify all the elements present on Branch Page" time="14.888464">
+<system-out><![CDATA[Given user is logged in to the application with username "admin" and password "admin".passed
+When user clicks on Branch Link.............................................passed
+Then user is able to navigate to Branch Page and verify all the elements are present on Branch Page.passed
+]]></system-out>
+</testcase>
+</testsuite>

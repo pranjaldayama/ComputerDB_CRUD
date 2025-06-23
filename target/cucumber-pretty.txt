@@ -1,0 +1,7 @@
+Feature: Navigate to Branch Page and verify all the elements on Branch Page
+    Verify if user is able to navigate to Branch Page and Verify all the elements present on Branch Page
+
+  Scenario: Navigate to Branch Page and Verify all the elements present on Branch Page                  [90m# src/test/java/features/Navigate_Verify_BranchPg.feature:4[0m
+    [32mGiven [0m[32muser is logged in to the application with username "[0m[32m[1madmin[0m[32m" and password "[0m[32m[1madmin[0m[32m"[0m               [90m# NavigateVerifyBranchPgStepDef.user_is_logged_in_to_the_application_with_username_and_password(String,String)[0m
+    [32mWhen [0m[32muser clicks on Branch Link[0m                                                                     [90m# NavigateVerifyBranchPgStepDef.user_clicks_on_Branch_Link()[0m
+    [32mThen [0m[32muser is able to navigate to Branch Page and verify all the elements are present on Branch Page[0m [90m# NavigateVerifyBranchPgStepDef.user_is_able_to_navigate_to_Branch_Page_and_verify_all_the_elements_are_present_on_Branch_Page()[0m
